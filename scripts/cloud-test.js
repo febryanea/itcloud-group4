@@ -16,6 +16,6 @@ export const options = {
 };
 
 export default function () {
-    const res = http.get('https://test.k6.io');
+    const res = http.get('https://group4-static.s3.ap-southeast-1.amazonaws.com/index.html');
     sleep(1);
 }
