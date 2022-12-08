@@ -11,4 +11,4 @@ phases:
       - docker run -i loadimpact/k6 run - <scripts/cloud-test.js
   post_build:
     commands:
-      - echo Performance test complete
+      - echo Performance test complete on https://group4-static.s3.ap-southeast-1.amazonaws.com/index.html
